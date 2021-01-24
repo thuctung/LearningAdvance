@@ -1,8 +1,8 @@
-const tinhGiaiThua = (n) => {
+const factorial = (n) => {
   if (n === 1) {
     return n;
   }
-  return n * tinhGiaiThua(n - 1);
+  return n * factorial(n - 1);
 };
 
 const useLoop = (n) => {
