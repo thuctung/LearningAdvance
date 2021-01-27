@@ -14,8 +14,7 @@ const useLoop = (n) => {
   return result;
 };
 
-const thuctung = {
-  name: "Tung",
-  age: 12,
-  1: 2,
-};
+// super than
+function factorial(n) {
+  return !(n > 1) ? 1 : factorial(n - 1) * n;
+}
